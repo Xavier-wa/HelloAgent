@@ -49,7 +49,6 @@ class HelloAgentsLLM:
                 print(f"❌ 调用LLM API时发生错误: {e}")
                 return None
 
-
 if __name__ == '__main__':
     try:
         llmClient = HelloAgentsLLM()
